@@ -1,0 +1,22 @@
+# Generated Keil build intermediates
+*.o
+*.crf
+*.d
+*.dep
+*.lnp
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local compiler output, license-bearing logs and personal IDE state
+*.obj
+*.axf
+*.htm
+*.log
+*.map
+*.lst
+*.Bak
+*.exe
+*.uvgu*
+*.saved_uv4
