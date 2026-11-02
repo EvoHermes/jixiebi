@@ -1,0 +1,16 @@
+===== PAGE 1 =====
+STM32F103RCT6集成板资源分配
+IO编号 资源说明 外设 备注
+A5 普通IO 用户按键
+A4 普通IO LED
+A3 普通IO 蜂鸣器 插跳线帽控制
+B3.B4.B5.A15 普通IO OLED
+A13.A14 SWD调试接口 SWD
+A9.A10 USART1 MicroUSB串口1 CP2102串口
+A11.A12 CAN CAN接口 主控板板载CAN芯片
+A6.A7.B0.B1 TIM3 舵机接口
+B6.B7.B8.B9 TIM4 舵机接口
+B10.B11 USART3 串口蓝牙 默认用于APP通信
+B12.B13.B14.B15 普通IO PS2手柄接口
+B2 BOOT1
+引出预留IO C13-C14-C15-A8-A0-A2
